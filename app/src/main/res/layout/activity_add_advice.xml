@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aslan.amani.amanidiet.AddAdvice">
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etType"
+        android:layout_marginTop="117dp"
+        android:text="Save" />
+
+    <EditText
+        android:id="@+id/etAdvice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="Add Advice"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/etAdvice"
+        android:layout_below="@+id/etAdvice"
+        android:ems="10"
+        android:hint="Advice type"
+        android:inputType="textPersonName" />
+</RelativeLayout>
